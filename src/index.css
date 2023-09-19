@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Tangerine:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body {
+    font-family: 'Libre Caslon Display', serif;
+}
