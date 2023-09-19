@@ -2,12 +2,12 @@ import { viramayak_circular_logo } from "../assets/images";
 
 const CommingSoon = () => {
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="h-screen flex flex-col justify-center overflow-hidden">
         <section className="flex flex-col items-center text-center">
         <img
             src={viramayak_circular_logo}
             alt="viramayak_circular_logo"
-            className="max-w-[400px] mb-8"
+            className="max-w-[280px] md:max-w-[350px] xl:max-w-[380px] 2xl:max-w-[420px]  mb-8"
         />
         <h1 className="font-headings text-4xl text-primary">
             Viramayak Live In Concert <br />
