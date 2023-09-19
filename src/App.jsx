@@ -6,12 +6,16 @@ import {
   Sithpawura,
   Partners,
   ContactUs,
+  CommingSoon
 } from "./components";
 
 function App() {
   return (
-    <div className="bg-gradient-to-l from-slate-700 to-slate-900 text-white">
-      <div className="bg-gradient-to-l from-slate-700 to-slate-900 px-4 py-2">
+    <div className="bg-gradient-to-r from-slate-800 via-slate-700 to-slate-900 background-animate text-white">
+      <div>
+        <CommingSoon />
+      </div>
+      {/* <div className="bg-gradient-to-l from-slate-700 to-slate-900 px-4 py-2">
         <Navbar />
       </div>
       <div className="mx-8">
@@ -37,7 +41,7 @@ function App() {
         <div>
           <Footer />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -8,6 +8,7 @@ import Partner from "./Partner";
 import Partners from "./Partners";
 import Contact from "./Contact";
 import ContactUs from "./ContactUs";
+import CommingSoon from "./CommingSoon";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Partners,
   Contact,
   ContactUs,
+  CommingSoon,
 };
