@@ -7,7 +7,7 @@ const PartnersSection = () => {
     <section id="partners" className="p-12 h-screen">
       <Heading main="PARTNERS" secondary="OF VIRAMAYAK LIVE IN CONCERT" />
       {partnersList.map((partnersCategory, index) => {
-        return <PartnersCategory partners={partnersCategory} />;
+        return <PartnersCategory key={index} partners={partnersCategory} />;
       })}
     </section>
   );
