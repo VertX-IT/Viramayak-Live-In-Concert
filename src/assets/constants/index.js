@@ -16,14 +16,12 @@ import {
   daham,
 } from '../images';
 
-import { contactUsList } from '../images/contactUs';
-
 export const cotactUsList = [
   {
-    image: contactUsList[0],
+    //image: contactUsList[0],
     name: 'Rajitha',
     position: 'Organizing committe',
-    number: 071,
+    number: '071',
   },
 ];
 

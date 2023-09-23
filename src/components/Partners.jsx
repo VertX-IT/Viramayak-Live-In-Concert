@@ -1,5 +1,5 @@
 import Heading from './Heading';
-import { partnersImageList } from '../assets/images/contactUs';
+import { partnersImageList } from '../assets/images/partners';
 
 const Partners = () => {
   return (

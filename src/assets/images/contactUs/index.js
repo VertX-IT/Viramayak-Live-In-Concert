@@ -1,3 +1,3 @@
-import Sp1 from './Sp1.png';
+import C1 from './C1.png';
 
-export const contactUsImageList = [Sp1];
+export const contactUsImageList = [C1];
