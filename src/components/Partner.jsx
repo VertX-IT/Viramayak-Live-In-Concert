@@ -1,8 +1,7 @@
-const Partner = ({ image, type }) => {
+const Partner = ({ image }) => {
   return (
-    <div className="">
-      <img className="" src={image} alt="partner" />
-      <p>{type}</p>
+    <div className="p-3">
+      <img className="w-[150px]" src={image} alt="partner" />
     </div>
   );
 };

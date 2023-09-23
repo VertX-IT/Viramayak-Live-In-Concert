@@ -4,11 +4,13 @@ import PartnersCategory from './PartnersCategory';
 
 const PartnersSection = () => {
   return (
-    <section id="partners" className="p-12 h-screen">
+    <section id="partners" className="p-12 flex flex-col max-w-[1600px] mx-auto">
       <Heading main="PARTNERS" secondary="OF VIRAMAYAK LIVE IN CONCERT" />
-      {partnersList.map((partnersCategory, index) => {
-        return <PartnersCategory key={index} partners={partnersCategory} />;
-      })}
+      <div className="flex flex-row flex-wrap justify-center">
+        {partnersList.map((partnersCategory, index) => {
+          return <PartnersCategory key={index} partners={partnersCategory} />;
+        })}
+      </div>
     </section>
   );
 };
