@@ -4,7 +4,7 @@ import { vocalArtistsCircle } from '../assets/images/vocalArtistsCircle';
 
 const VocalArtistsCircles = () => {
   return (
-    <section id="artists" className="p-12">
+    <section id="artists" className="p-12 overflow-y-auto">
       <div>
         <Heading main="VOCAL ARTISTS" secondary="BY FACULTY OF ENGINEERING" />
       </div>

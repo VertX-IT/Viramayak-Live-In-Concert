@@ -5,9 +5,12 @@ import { sithpawuraImageList } from '../assets/images/sithpawura';
 
 const Sithpawura = () => {
   return (
-    <section id="sithpawura" className="flex flex-col items-center">
+    <section
+      id="sithpawura"
+      className="flex flex-col items-center p-12 bg-sithpawura-pattern bg-no-repeat bg-top h-screen"
+    >
       <Heading main="SITH PAWURA" secondary="THE CHARITABLE PROGRAMME" />
-      <p>
+      <p className="text-center mt-[-30px] max-w-5xl">
         The Sith Paura project is a yearly initiative undertaken by engineering students from University of Sri
         Jayewardenepura to provide educational assistance to hard-to-learn children. The aim of this project is to help
         children who face difficulty in learning due to various factors such as economic, social, and psychological
@@ -23,10 +26,10 @@ const Sithpawura = () => {
         resources necessary to overcome their learning barriers and achieve their full potential. It is a testament to
         the power of education to transform lives and make a positive impact on society.
       </p>
-      <img src={liyawalHero} />
-      <div>
+      <img src={liyawalHero} className="max-w-[400px] my-8" />
+      <div className="flex flex-row flex-wrap items-center justify-center mx-auto">
         {sithpawuraImageList.map((image, index) => {
-          return <img src={image} alt="sithpawura" className="w-[200px]" key={index} />;
+          return <img src={image} alt="sithpawura" className="w-[400px] p-2" key={index} />;
         })}
       </div>
       {/* <h3 className="text-secondary">

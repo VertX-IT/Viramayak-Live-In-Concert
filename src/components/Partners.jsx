@@ -1,8 +1,9 @@
 import Heading from './Heading';
+import { partnersImageList } from '../assets/images/contactUs';
 
 const Partners = () => {
   return (
-    <section id="partners" className="p-12">
+    <section id="partners" className="p-12 h-screen">
       <Heading main="PARTNERS" secondary="OF VIRAMAYAK LIVE IN CONCERT" />
       {/* <h3>Our Partners</h3>
       {partnersList.map((partnerCategory, index) => {
@@ -14,6 +15,9 @@ const Partners = () => {
           />
         );
       })} */}
+      {partnersImageList.map((image, index) => {
+        return <img src={image} key={index} className="" />;
+      })}
     </section>
   );
 };

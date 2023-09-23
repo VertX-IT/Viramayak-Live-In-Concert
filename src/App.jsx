@@ -14,16 +14,13 @@ import {
 function App() {
   return (
     <div className="bg-gradient-to-r from-slate-800 to-slate-900 text-white overflow-hidden">
-      {/* <div>
-        <CommingSoon />
-      </div> */}
-      <Hero />
+      {/* <Hero />
       <Ridma />
       <VocalArtistsCircles />
       <VocalArtistsIndividual />
       <Orchestra />
       <Sithpawura />
-      <Partners />
+      <Partners /> */}
       <ContactUs />
     </div>
   );

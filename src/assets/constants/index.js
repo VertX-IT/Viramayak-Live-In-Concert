@@ -16,10 +16,16 @@ import {
   daham,
 } from '../images';
 
-// import {
-//   Singer1,
-//   Singer2,
-// } from '../images/vocalArtistsCircle';
+import { contactUsList } from '../images/contactUs';
+
+export const cotactUsList = [
+  {
+    image: contactUsList[0],
+    name: 'Rajitha',
+    position: 'Organizing committe',
+    number: 071,
+  },
+];
 
 export const navLinks = [
   {

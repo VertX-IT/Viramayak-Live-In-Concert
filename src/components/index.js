@@ -3,8 +3,6 @@ import Footer from './Footer';
 import Hero from './Hero';
 import VocalArtistsCircles from './VocalArtistsCircles';
 import Sithpawura from './Sithpawura';
-import PartnerCategory from './PartnerCategory';
-import Partner from './Partner';
 import Partners from './Partners';
 import Contact from './Contact';
 import ContactUs from './ContactUs';
@@ -20,8 +18,6 @@ export {
   Hero,
   VocalArtistsCircles,
   Sithpawura,
-  Partner,
-  PartnerCategory,
   Partners,
   Contact,
   ContactUs,
