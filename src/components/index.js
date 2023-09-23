@@ -1,21 +1,22 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Hero from "./Hero";
-import Artists from "./Artists";
-import Sithpawura from "./Sithpawura";
-import PartnerCategory from "./PartnerCategory";
-import Partner from "./Partner";
-import Partners from "./Partners";
-import Contact from "./Contact";
-import ContactUs from "./ContactUs";
-import CommingSoon from "./CommingSoon";
-import Ridma from "./Ridma";
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Hero from './Hero';
+import VocalArtistsCircles from './VocalArtistsCircles';
+import Sithpawura from './Sithpawura';
+import PartnerCategory from './PartnerCategory';
+import Partner from './Partner';
+import Partners from './Partners';
+import Contact from './Contact';
+import ContactUs from './ContactUs';
+import CommingSoon from './CommingSoon';
+import Ridma from './Ridma';
+import Heading from './Heading';
 
 export {
   Navbar,
   Footer,
   Hero,
-  Artists,
+  VocalArtistsCircles,
   Sithpawura,
   Partner,
   PartnerCategory,
@@ -24,4 +25,5 @@ export {
   ContactUs,
   CommingSoon,
   Ridma,
+  Heading,
 };

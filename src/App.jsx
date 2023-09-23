@@ -1,14 +1,4 @@
-import {
-  Navbar,
-  Hero,
-  Footer,
-  Artists,
-  Sithpawura,
-  Partners,
-  ContactUs,
-  CommingSoon,
-  Ridma
-} from "./components";
+import { Hero, Footer, VocalArtistsCircles, Sithpawura, Partners, ContactUs, CommingSoon, Ridma } from './components';
 
 function App() {
   return (
@@ -18,7 +8,7 @@ function App() {
       </div> */}
       <Hero />
       <Ridma />
-      <Artists />
+      <VocalArtistsCircles />
       {/* <Sithpawura />
       <Partners />
       <ContactUs />

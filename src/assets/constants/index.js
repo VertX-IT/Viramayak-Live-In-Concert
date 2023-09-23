@@ -1,8 +1,6 @@
 import {
-  ridma,
   vocal_artists,
   orchestra,
-
   grand_tempered,
   gajaba_trading,
   sampath_tailors,
@@ -11,179 +9,179 @@ import {
   bera_store,
   jpura_flames,
   jpura_voice,
-
   charlie,
   ukku,
   nipun,
   mihisara,
   daham,
-} from "../images";
+} from '../images';
+
+// import {
+//   Singer1,
+//   Singer2,
+// } from '../images/vocalArtistsCircle';
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: 'home',
+    title: 'Home',
   },
   {
-    id: "artists",
-    title: "Artists",
+    id: 'artists',
+    title: 'Artists',
   },
   {
-    id: "sithpawura",
-    title: "Our Purpose",
+    id: 'sithpawura',
+    title: 'Our Purpose',
   },
   {
-    id: "partners",
-    title: "Our Partners",
+    id: 'partners',
+    title: 'Our Partners',
   },
   {
-    id: "contactus",
-    title: "Contact Us",
+    id: 'contactus',
+    title: 'Contact Us',
   },
 ];
 
 export const artistsList = [
   {
-    id: "ridma",
-    image: ridma,
-    line1: "Featuring",
-    name: "Ridma Weerawardene",
-  },
-  {
-    id: "vocalArtists",
+    id: 'vocalArtists',
     image: vocal_artists,
-    line1: "Faculty of Engineering",
-    name: "Vocal Artists",
+    line1: 'Faculty of Engineering',
+    name: 'Vocal Artists',
   },
   {
-    id: "orchestra",
+    id: 'orchestra',
     image: orchestra,
-    line1: "Faculty of Engineering",
-    name: "Orchestra",
+    line1: 'Faculty of Engineering',
+    name: 'Orchestra',
   },
 ];
 
+export const vocalArtistsList = [];
+
 export const partnersList = [
   {
-    type: "Silver Sponsors",
+    type: 'Silver Sponsors',
     partners: [
       {
-        id: "grand_tempered",
+        id: 'grand_tempered',
         image: grand_tempered,
-        name: "Grand Tempered Pvt. Ltd.",
+        name: 'Grand Tempered Pvt. Ltd.',
       },
       {
-        id: "gajaba_trading",
+        id: 'gajaba_trading',
         image: gajaba_trading,
-        name: "Gajaba Trading Vehicle Exporters",
-      }
-    ]
+        name: 'Gajaba Trading Vehicle Exporters',
+      },
+    ],
   },
   {
-    type: "Official Clothing Partner",
+    type: 'Official Clothing Partner',
     partners: [
       {
-        id: "sampath_tailors",
+        id: 'sampath_tailors',
         image: sampath_tailors,
-        name: "Sampath Tailors",
-      }
-    ]
+        name: 'Sampath Tailors',
+      },
+    ],
   },
   {
-    type: "Official Event Technology Partner",
+    type: 'Official Event Technology Partner',
     partners: [
-      {    
-        id: "vertex_it",
+      {
+        id: 'vertex_it',
         image: vertx_it,
-        name: "VertX IT",
+        name: 'VertX IT',
       },
-    ]
+    ],
   },
   {
-    type: "Youth Partner",
+    type: 'Youth Partner',
     partners: [
-      {   
-        id: "youth partner",
+      {
+        id: 'youth partner',
         image: araliya_gardens,
-        name: "Araliya Gardens",
+        name: 'Araliya Gardens',
       },
-    ]
+    ],
   },
   {
-    type: "Music Intrument Partner",
+    type: 'Music Intrument Partner',
     partners: [
-      {    
-        id: "music partner",
+      {
+        id: 'music partner',
         image: bera_store,
-        name: "The Bera Store",
+        name: 'The Bera Store',
       },
-    ]
+    ],
   },
   {
-    type: "Official Photography Partner",
+    type: 'Official Photography Partner',
     partners: [
-      {    
-        id: "photography partner",
+      {
+        id: 'photography partner',
         image: jpura_flames,
-        name: "Jpura Flames",
+        name: 'Jpura Flames',
       },
-    ]
+    ],
   },
   {
-    type: "Official Broadcasting Partner",
+    type: 'Official Broadcasting Partner',
     partners: [
-      {    
-        id: "broadcasting partner",
+      {
+        id: 'broadcasting partner',
         image: jpura_voice,
-        name: "Jpura Voice",
+        name: 'Jpura Voice',
       },
-    ]
+    ],
   },
 ];
 
 export const contactList = [
   {
-    id: "president",
+    id: 'president',
     image: charlie,
-    name: "Rajitha D. Dasanayaka",
-    position: "Organizing Committee President",
-    number: "071-1133357",
+    name: 'Rajitha D. Dasanayaka',
+    position: 'Organizing Committee President',
+    number: '071-1133357',
   },
   {
-    id: "vpresident1",
+    id: 'vpresident1',
     image: ukku,
-    name: "Chamod Jayasinghe",
-    position: "Organizing Committee Vice -President",
-    number: "076-3310638",
+    name: 'Chamod Jayasinghe',
+    position: 'Organizing Committee Vice -President',
+    number: '076-3310638',
   },
   {
-    id: "vpresident2",
+    id: 'vpresident2',
     image: nipun,
-    name: "Nipun Rajapaksha",
-    position: "Organizing Committee Vice -President",
-    number: "071-8910049",
+    name: 'Nipun Rajapaksha',
+    position: 'Organizing Committee Vice -President',
+    number: '071-8910049',
   },
   {
-    id: "vpresident3",
+    id: 'vpresident3',
     image: mihisara,
-    name: "Mihisara Dasanayaka",
-    position: "Organizing Committee Vice -President",
-    number: "076-5558523",
+    name: 'Mihisara Dasanayaka',
+    position: 'Organizing Committee Vice -President',
+    number: '076-5558523',
   },
   {
-    id: "vpresident4",
+    id: 'vpresident4',
     image: daham,
-    name: "Daham Adhikari",
-    position: "Organizing Committee Vice -President",
-    number: "076-5814569",
+    name: 'Daham Adhikari',
+    position: 'Organizing Committee Vice -President',
+    number: '076-5814569',
   },
 ];
 
 export const socialMedias = [
   {
-    id: "youtube",
+    id: 'youtube',
     image: daham,
-    name: "YouTube",
-    url: ""
+    name: 'YouTube',
+    url: '',
   },
 ];
