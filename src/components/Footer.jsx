@@ -1,5 +1,3 @@
-import { socialMedias } from "../assets/constants";
-
 const Footer = () => {
   return (
     <footer>
@@ -13,13 +11,13 @@ const Footer = () => {
       </div>
 
       <div>
-        {socialMedias.map((socialMedia, index) => {
+        {/* {socialMedias.map((socialMedia, index) => {
           return (
             <a href={socialMedia.url} key={index}>
-              <img src={socialMedia.image} alt={socialMedia.name}/>
+              <img src={socialMedia.image} alt={socialMedia.name} />
             </a>
-          );          
-        })}
+          );
+        })} */}
       </div>
     </footer>
   );

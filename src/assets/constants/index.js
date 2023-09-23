@@ -1,24 +1,7 @@
-import {
-  vocal_artists,
-  orchestra,
-  grand_tempered,
-  gajaba_trading,
-  sampath_tailors,
-  vertx_it,
-  araliya_gardens,
-  bera_store,
-  jpura_flames,
-  jpura_voice,
-  charlie,
-  ukku,
-  nipun,
-  mihisara,
-  daham,
-} from '../images';
 import { contactUsImageList } from '../images/contactUs';
 import { partnersImageList } from '../images/partners';
 
-export const cotactUsList = [
+export const contactUsList = [
   {
     image: contactUsImageList.President,
     name: 'Rajitha D. Dasanayaka',
@@ -49,7 +32,6 @@ export const cotactUsList = [
     position: 'Organizing Committee Vice -President',
     number: '076-5814569',
   },
-
 ];
 
 export const partnersList = [
@@ -119,7 +101,7 @@ export const partnersList = [
     image: partnersImageList.japura_voice,
     name: 'Jpura Voice',
   },
-]
+];
 
 export const navLinks = [
   {
@@ -141,32 +123,5 @@ export const navLinks = [
   {
     id: 'contactus',
     title: 'Contact Us',
-  },
-];
-
-export const artistsList = [
-  {
-    id: 'vocalArtists',
-    image: vocal_artists,
-    line1: 'Faculty of Engineering',
-    name: 'Vocal Artists',
-  },
-  {
-    id: 'orchestra',
-    image: orchestra,
-    line1: 'Faculty of Engineering',
-    name: 'Orchestra',
-  },
-];
-
-export const vocalArtistsList = [];
-
-
-export const socialMedias = [
-  {
-    id: 'youtube',
-    image: daham,
-    name: 'YouTube',
-    url: '',
   },
 ];

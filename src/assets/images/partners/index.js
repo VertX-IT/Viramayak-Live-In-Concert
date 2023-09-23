@@ -13,20 +13,20 @@ import Sp12 from './Sp12.png';
 import Sp13 from './Sp13.png';
 
 export const partnersImageList = {
-    grand_tempered : Sp1,
-    gajaba_trading : Sp2,
-    sampath_tailors :Sp3,
-    vertX_it : Sp4,
-    aralia_gardens :Sp5,
-    bera_stores : Sp6,
-    japura_flames : Sp7,
-    japura_voice : Sp8,
-    ltl_transformers : Sp9,
-    link_natural : Sp10,
-    ABC_pharmera : Sp11,
-    demo4 : Sp12,
-    demo5 : Sp13,
-}
+  grand_tempered: Sp1,
+  gajaba_trading: Sp2,
+  sampath_tailors: Sp3,
+  vertX_it: Sp4,
+  aralia_gardens: Sp5,
+  bera_stores: Sp6,
+  japura_flames: Sp7,
+  japura_voice: Sp8,
+  ltl_transformers: Sp9,
+  link_natural: Sp10,
+  ABC_pharmera: Sp11,
+  demo4: Sp12,
+  demo5: Sp13,
+};
 
 /*
 Banner partnership

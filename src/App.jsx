@@ -5,7 +5,7 @@ import {
   Footer,
   VocalArtistsCircles,
   Sithpawura,
-  Partners,
+  PartnersSection,
   ContactUs,
   CommingSoon,
   Ridma,
@@ -26,7 +26,7 @@ function App() {
       <VocalArtistsIndividual />
       <Orchestra />
       <Sithpawura />
-      <Partners />
+      <PartnersSection />
       <ContactUs />
     </div>
   );
