@@ -5,11 +5,9 @@ import C4 from './C4.png';
 import C5 from './C5.png';
 
 export const contactUsImageList = {
-    President: C1,
-    VicePresident1 :C2,
-    VicePresident2 :C3,
-    VicePresident3 :C4,
-    VicePresident4 :C5,
-
-
-}
+  President: C1,
+  VicePresident1: C2,
+  VicePresident2: C3,
+  VicePresident3: C4,
+  VicePresident4: C5,
+};
