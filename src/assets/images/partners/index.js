@@ -21,9 +21,19 @@ export const partnersImageList = {
     bera_stores : Sp6,
     japura_flames : Sp7,
     japura_voice : Sp8,
-    demo1 : Sp9,
-    demo2 : Sp10,
-    demo3 : Sp11,
+    ltl_transformers : Sp9,
+    link_natural : Sp10,
+    ABC_pharmera : Sp11,
     demo4 : Sp12,
     demo5 : Sp13,
 }
+
+/*
+Banner partnership
+
+Araliya gardens - banner 30000
+Sheld medicles - 30000(well wishes)
+PTC Company - 30000
+Eden Garage: - 30000
+
+Youth partner - super sun vege foods 50000*/

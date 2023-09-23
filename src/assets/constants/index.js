@@ -54,79 +54,70 @@ export const cotactUsList = [
 
 export const partnersList = [
   {
+    id: 'grand_tempered',
     type: 'Silver Sponsors',
-    partners: [
-      {
-        id: 'grand_tempered',
-        image: partnersImageList.grand_tempered,
-        name: 'Grand Tempered Pvt. Ltd.',
-      },
-      {
-        id: 'gajaba_trading',
-        image: partnersImageList.gajaba_trading,
-        name: 'Gajaba Trading Vehicle Exporters',
-      },
-    ],
+    image: partnersImageList.grand_tempered,
+    name: 'Grand Tempered Pvt. Ltd.',
   },
   {
+    id: 'gajaba_trading',
+    type: 'Silver Sponsors',
+    image: partnersImageList.gajaba_trading,
+    name: 'Gajaba Trading Vehicle Exporters',
+  },
+  {
+    id: 'LTL_transformers',
+    type: 'Silver Sponsors',
+    image: partnersImageList.ltl_transformers,
+    name: 'LTL Transformers Pvt. Ltd',
+  },
+  {
+    id: 'link_natural',
+    type: 'Silver Sponsors',
+    image: partnersImageList.link_natural,
+    name: 'Link Natural Pvt. Ltd',
+  },
+  {
+    id: 'ABC_pharmera',
+    type: 'Silver Sponsors',
+    image: partnersImageList.ABC_pharmera,
+    name: 'ABC Pharmera',
+  },
+  {
+    id: 'sampath_tailors',
     type: 'Official Clothing Partner',
-    partners: [
-      {
-        id: 'sampath_tailors',
-        image: partnersImageList.sampath_tailors,
-        name: 'Sampath Tailors',
-      },
-    ],
+    image: partnersImageList.sampath_tailors,
+    name: 'Sampath Tailors',
   },
   {
+    id: 'vertex_it',
     type: 'Official Event Technology Partner',
-    partners: [
-      {
-        id: 'vertex_it',
-        image: partnersImageList.vertX_it,
-        name: 'VertX IT',
-      },
-    ],
+    image: partnersImageList.vertX_it,
+    name: 'VertX IT',
   },
   {
+    id: 'youth partner',
     type: 'Youth Partner',
-    partners: [
-      {
-        id: 'youth partner',
-        image: partnersImageList.aralia_gardens,
-        name: 'Araliya Gardens',
-      },
-    ],
+    image: partnersImageList.aralia_gardens,
+    name: 'Araliya Gardens',
   },
   {
+    id: 'music partner',
     type: 'Music Intrument Partner',
-    partners: [
-      {
-        id: 'music partner',
-        image: partnersImageList.bera_stores,
-        name: 'The Bera Store',
-      },
-    ],
+    image: partnersImageList.bera_stores,
+    name: 'The Bera Store',
   },
   {
+    id: 'photography partner',
     type: 'Official Photography Partner',
-    partners: [
-      {
-        id: 'photography partner',
-        image: partnersImageList.japura_flames,
-        name: 'Jpura Flames',
-      },
-    ],
+    image: partnersImageList.japura_flames,
+    name: 'Jpura Flames',
   },
   {
+    id: 'broadcasting partner',
     type: 'Official Broadcasting Partner',
-    partners: [
-      {
-        id: 'broadcasting partner',
-        image: partnersImageList.japura_voice,
-        name: 'Jpura Voice',
-      },
-    ],
+    image: partnersImageList.japura_voice,
+    name: 'Jpura Voice',
   },
 ]
 
