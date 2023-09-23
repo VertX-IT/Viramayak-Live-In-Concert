@@ -84,6 +84,30 @@ export const partnersList = [
     name: 'ABC Pharmera',
   },
   {
+    id: 'super_sun',
+    type: 'Youth Partner',
+    image: partnersImageList.super_sun,
+    name: 'super Sun Vege Foods',
+  },
+  {
+    id: 'sheld_medicles',
+    type: 'Banner Sponsors',
+    image: partnersImageList.sheild_medicles,
+    name: 'Sheld Medicles',
+  },
+  {
+    id: 'PTC_company',
+    type: 'Banner Sponsors',
+    image: partnersImageList.ptc_company,
+    name: 'PTC Company',
+  },
+  {
+    id: 'eden_garage',
+    type: 'Banner Sponsors',
+    image: partnersImageList.eden_garage,
+    name: 'Eden Garage',
+  },
+  {
     id: 'sampath_tailors',
     type: 'Official Clothing Partner',
     image: partnersImageList.sampath_tailors,
@@ -94,12 +118,6 @@ export const partnersList = [
     type: 'Official Event Technology Partner',
     image: partnersImageList.vertX_it,
     name: 'VertX IT',
-  },
-  {
-    id: 'youth partner',
-    type: 'Youth Partner',
-    image: partnersImageList.aralia_gardens,
-    name: 'Araliya Gardens',
   },
   {
     id: 'music partner',

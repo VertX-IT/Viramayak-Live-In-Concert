@@ -17,23 +17,14 @@ export const partnersImageList = {
     gajaba_trading : Sp2,
     sampath_tailors :Sp3,
     vertX_it : Sp4,
-    aralia_gardens :Sp5,
+    super_sun :Sp5,
     bera_stores : Sp6,
     japura_flames : Sp7,
     japura_voice : Sp8,
     ltl_transformers : Sp9,
     link_natural : Sp10,
     ABC_pharmera : Sp11,
-    demo4 : Sp12,
-    demo5 : Sp13,
+    sheild_medicles : Sp12,
+    ptc_company : Sp13,
+    eden_garage : Sp14,
 }
-
-/*
-Banner partnership
-
-Araliya gardens - banner 30000
-Sheld medicles - 30000(well wishes)
-PTC Company - 30000
-Eden Garage: - 30000
-
-Youth partner - super sun vege foods 50000*/
