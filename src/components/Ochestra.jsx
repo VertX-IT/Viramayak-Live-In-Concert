@@ -4,9 +4,9 @@ import { orchestra } from '../assets/images';
 
 const Ochestra = () => {
   return (
-    <section className="p-12">
+    <section className="py-12 lg:p-12">
       <Heading main="Orchestra" secondary="BY FACULTY OF ENGINEERING" />
-      <img src={orchestra} alt="orchestra" className="" />
+      <img src={orchestra} alt="orchestra" className="w-full" />
     </section>
   );
 };

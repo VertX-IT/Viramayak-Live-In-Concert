@@ -1,10 +1,8 @@
 import { navLinks } from '../assets/constants';
-import { useState } from 'react';
-import { close, viramayak_text_only_logo, menu } from '../assets/images';
 
 const Navbar = () => {
   return (
-    <nav className="min-h-[100px] max-w-full flex flex-row items-center justify-center">
+    <nav className="hidden min-h-[100px] max-w-full lg:flex flex-row items-center justify-center">
       <ul className="list-none flex justify-center items-center flex-row">
         {navLinks.map((nav, index) => {
           return (
