@@ -1,4 +1,15 @@
-import { Hero, Footer, VocalArtistsCircles, Sithpawura, Partners, ContactUs, CommingSoon, Ridma } from './components';
+import {
+  Hero,
+  Footer,
+  VocalArtistsCircles,
+  Sithpawura,
+  Partners,
+  ContactUs,
+  CommingSoon,
+  Ridma,
+  VocalArtistsIndividual,
+  Orchestra,
+} from './components';
 
 function App() {
   return (
@@ -9,10 +20,11 @@ function App() {
       <Hero />
       <Ridma />
       <VocalArtistsCircles />
-      {/* <Sithpawura />
+      <VocalArtistsIndividual />
+      <Orchestra />
+      <Sithpawura />
       <Partners />
       <ContactUs />
-      <Footer /> */}
     </div>
   );
 }

@@ -11,6 +11,8 @@ import ContactUs from './ContactUs';
 import CommingSoon from './CommingSoon';
 import Ridma from './Ridma';
 import Heading from './Heading';
+import VocalArtistsIndividual from './VocalArtistsIndividual';
+import Orchestra from './Ochestra';
 
 export {
   Navbar,
@@ -26,4 +28,6 @@ export {
   CommingSoon,
   Ridma,
   Heading,
+  VocalArtistsIndividual,
+  Orchestra,
 };

@@ -1,10 +1,10 @@
-import { PartnerCategory } from "../components"
-import { partnersList } from "../assets/constants";
+import Heading from './Heading';
 
 const Partners = () => {
   return (
-    <section id="partners" className="flex flex-col items-center">
-      <h3>Our Partners</h3>
+    <section id="partners" className="p-12">
+      <Heading main="PARTNERS" secondary="OF VIRAMAYAK LIVE IN CONCERT" />
+      {/* <h3>Our Partners</h3>
       {partnersList.map((partnerCategory, index) => {
         return (
           <PartnerCategory
@@ -13,7 +13,7 @@ const Partners = () => {
             partners={partnerCategory.partners}
           />
         );
-      })}
+      })} */}
     </section>
   );
 };
