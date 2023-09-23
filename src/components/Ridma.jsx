@@ -3,8 +3,8 @@ import Heading from './Heading';
 
 const Ridma = () => {
   return (
-    <section className="flex flex-col h-screen items-center justify-center mx-28">
-      <Heading main="FEATURING" secondary="RIDMA WEERAWARDNE" />
+    <section className="flex flex-col items-center justify-center mx-28">
+      <Heading main="Featuring" secondary="RIDMA WEERAWARDNE" />
       <div className="flex flex-row mx-auto items-center w-9/12 h-min-[60vh]">
         <img src={ridma} alt="Ridma" className="w-[600px] object-contain mr-4" />
         <p className="text-center text-xl w-5/6">

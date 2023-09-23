@@ -2,7 +2,7 @@ import { viramayak_circular_logo } from "../assets/images";
 
 const CommingSoon = () => {
   return (
-    <div className="h-screen flex flex-col justify-center overflow-hidden">
+    <div className=" flex flex-col justify-center overflow-hidden">
         <section className="flex flex-col items-center text-center">
         <img
             src={viramayak_circular_logo}

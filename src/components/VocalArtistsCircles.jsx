@@ -6,7 +6,7 @@ const VocalArtistsCircles = () => {
   return (
     <section id="artists" className="p-12 overflow-y-auto">
       <div>
-        <Heading main="VOCAL ARTISTS" secondary="BY FACULTY OF ENGINEERING" />
+        <Heading main="Vocal Artist" secondary="BY FACULTY OF ENGINEERING" />
       </div>
       <div className="flex flex-row flex-wrap justify-center w-4/5 mx-auto">
         {vocalArtistsCircle.map((artist, index) => {
