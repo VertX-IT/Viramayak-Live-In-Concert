@@ -7,9 +7,9 @@ const Sithpawura = () => {
   return (
     <section
       id="sithpawura"
-      className="flex flex-col items-center p-12 bg-sithpawura-pattern bg-no-repeat bg-top h-screen"
+      className="flex flex-col items-center p-12 bg-sithpawura-pattern bg-no-repeat bg-top"
     >
-      <Heading main="SITH PAWURA" secondary="THE CHARITABLE PROGRAMME" />
+      <Heading main="Sith Pawura" secondary="THE CHARITABLE PROGRAMME" />
       <p className="text-center mt-[-30px] max-w-5xl">
         The Sith Paura project is a yearly initiative undertaken by engineering students from University of Sri
         Jayewardenepura to provide educational assistance to hard-to-learn children. The aim of this project is to help

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="flex flex-col items-center text-center h-screen w-full bg-hero-pattern bg-cover bg-center"
+      className="flex flex-col items-center text-center w-full bg-hero-pattern bg-cover bg-center"
     >
       <Navbar />
 
