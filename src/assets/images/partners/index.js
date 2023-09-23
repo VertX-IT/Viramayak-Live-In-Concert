@@ -11,6 +11,7 @@ import Sp10 from './Sp10.png';
 import Sp11 from './Sp11.png';
 import Sp12 from './Sp12.png';
 import Sp13 from './Sp13.png';
+import Sp14 from './Sp14.png';
 
 export const partnersImageList = {
     grand_tempered : Sp1,
