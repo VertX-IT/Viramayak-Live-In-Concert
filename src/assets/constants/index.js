@@ -15,15 +15,120 @@ import {
   mihisara,
   daham,
 } from '../images';
+import { contactUsImageList } from '../images/contactUs';
+import { partnersImageList } from '../images/partners';
 
 export const cotactUsList = [
   {
-    //image: contactUsList[0],
-    name: 'Rajitha',
-    position: 'Organizing committe',
-    number: '071',
+    image: contactUsImageList.President,
+    name: 'Rajitha D. Dasanayaka',
+    position: 'Organizing Committee President',
+    number: '071-1133357',
   },
+  {
+    image: contactUsImageList.VicePresident1,
+    name: 'Chamod Jayasinghe',
+    position: 'Organizing Committee Vice -President',
+    number: '076-3310638',
+  },
+  {
+    image: contactUsImageList.VicePresident2,
+    name: 'Nipun Rajapaksha',
+    position: 'Organizing Committee Vice -President',
+    number: '071-8910049',
+  },
+  {
+    image: contactUsImageList.VicePresident3,
+    name: 'Mihisara Dasanayaka',
+    position: 'Organizing Committee Vice -President',
+    number: '076-5558523',
+  },
+  {
+    image: contactUsImageList.VicePresident4,
+    name: 'Daham Adhikari',
+    position: 'Organizing Committee Vice -President',
+    number: '076-5814569',
+  },
+
 ];
+
+export const partnersList = [
+  {
+    type: 'Silver Sponsors',
+    partners: [
+      {
+        id: 'grand_tempered',
+        image: partnersImageList.grand_tempered,
+        name: 'Grand Tempered Pvt. Ltd.',
+      },
+      {
+        id: 'gajaba_trading',
+        image: partnersImageList.gajaba_trading,
+        name: 'Gajaba Trading Vehicle Exporters',
+      },
+    ],
+  },
+  {
+    type: 'Official Clothing Partner',
+    partners: [
+      {
+        id: 'sampath_tailors',
+        image: partnersImageList.sampath_tailors,
+        name: 'Sampath Tailors',
+      },
+    ],
+  },
+  {
+    type: 'Official Event Technology Partner',
+    partners: [
+      {
+        id: 'vertex_it',
+        image: partnersImageList.vertX_it,
+        name: 'VertX IT',
+      },
+    ],
+  },
+  {
+    type: 'Youth Partner',
+    partners: [
+      {
+        id: 'youth partner',
+        image: partnersImageList.aralia_gardens,
+        name: 'Araliya Gardens',
+      },
+    ],
+  },
+  {
+    type: 'Music Intrument Partner',
+    partners: [
+      {
+        id: 'music partner',
+        image: partnersImageList.bera_stores,
+        name: 'The Bera Store',
+      },
+    ],
+  },
+  {
+    type: 'Official Photography Partner',
+    partners: [
+      {
+        id: 'photography partner',
+        image: partnersImageList.japura_flames,
+        name: 'Jpura Flames',
+      },
+    ],
+  },
+  {
+    type: 'Official Broadcasting Partner',
+    partners: [
+      {
+        id: 'broadcasting partner',
+        image: partnersImageList.japura_voice,
+        name: 'Jpura Voice',
+      },
+    ],
+  },
+]
 
 export const navLinks = [
   {
@@ -65,121 +170,6 @@ export const artistsList = [
 
 export const vocalArtistsList = [];
 
-export const partnersList = [
-  {
-    type: 'Silver Sponsors',
-    partners: [
-      {
-        id: 'grand_tempered',
-        image: grand_tempered,
-        name: 'Grand Tempered Pvt. Ltd.',
-      },
-      {
-        id: 'gajaba_trading',
-        image: gajaba_trading,
-        name: 'Gajaba Trading Vehicle Exporters',
-      },
-    ],
-  },
-  {
-    type: 'Official Clothing Partner',
-    partners: [
-      {
-        id: 'sampath_tailors',
-        image: sampath_tailors,
-        name: 'Sampath Tailors',
-      },
-    ],
-  },
-  {
-    type: 'Official Event Technology Partner',
-    partners: [
-      {
-        id: 'vertex_it',
-        image: vertx_it,
-        name: 'VertX IT',
-      },
-    ],
-  },
-  {
-    type: 'Youth Partner',
-    partners: [
-      {
-        id: 'youth partner',
-        image: araliya_gardens,
-        name: 'Araliya Gardens',
-      },
-    ],
-  },
-  {
-    type: 'Music Intrument Partner',
-    partners: [
-      {
-        id: 'music partner',
-        image: bera_store,
-        name: 'The Bera Store',
-      },
-    ],
-  },
-  {
-    type: 'Official Photography Partner',
-    partners: [
-      {
-        id: 'photography partner',
-        image: jpura_flames,
-        name: 'Jpura Flames',
-      },
-    ],
-  },
-  {
-    type: 'Official Broadcasting Partner',
-    partners: [
-      {
-        id: 'broadcasting partner',
-        image: jpura_voice,
-        name: 'Jpura Voice',
-      },
-    ],
-  },
-];
-
-export const contactList = [
-  {
-    id: 'president',
-    image: charlie,
-    name: 'Rajitha D. Dasanayaka',
-    position: 'Organizing Committee President',
-    number: '071-1133357',
-  },
-  {
-    id: 'vpresident1',
-    image: ukku,
-    name: 'Chamod Jayasinghe',
-    position: 'Organizing Committee Vice -President',
-    number: '076-3310638',
-  },
-  {
-    id: 'vpresident2',
-    image: nipun,
-    name: 'Nipun Rajapaksha',
-    position: 'Organizing Committee Vice -President',
-    number: '071-8910049',
-  },
-  {
-    id: 'vpresident3',
-    image: mihisara,
-    name: 'Mihisara Dasanayaka',
-    position: 'Organizing Committee Vice -President',
-    number: '076-5558523',
-  },
-  {
-    id: 'vpresident4',
-    image: daham,
-    name: 'Daham Adhikari',
-    position: 'Organizing Committee Vice -President',
-    number: '076-5814569',
-  },
-];
 
 export const socialMedias = [
   {

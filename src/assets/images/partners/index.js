@@ -1,3 +1,29 @@
 import Sp1 from './Sp1.png';
+import Sp2 from './Sp2.png';
+import Sp3 from './Sp3.png';
+import Sp4 from './Sp4.png';
+import Sp5 from './Sp5.png';
+import Sp6 from './Sp6.png';
+import Sp7 from './Sp7.png';
+import Sp8 from './Sp8.png';
+import Sp9 from './Sp9.png';
+import Sp10 from './Sp10.png';
+import Sp11 from './Sp11.png';
+import Sp12 from './Sp12.png';
+import Sp13 from './Sp13.png';
 
-export const partnersImageList = [Sp1];
+export const partnersImageList = {
+    grand_tempered : Sp1,
+    gajaba_trading : Sp2,
+    sampath_tailors :Sp3,
+    vertX_it : Sp4,
+    aralia_gardens :Sp5,
+    bera_stores : Sp6,
+    japura_flames : Sp7,
+    japura_voice : Sp8,
+    demo1 : Sp9,
+    demo2 : Sp10,
+    demo3 : Sp11,
+    demo4 : Sp12,
+    demo5 : Sp13,
+}
