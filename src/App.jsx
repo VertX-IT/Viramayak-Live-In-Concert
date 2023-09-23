@@ -23,11 +23,12 @@ function App() {
       <Hero />
       <Ridma />
       <VocalArtistsCircles />
-      <VocalArtistsIndividual />
+      {/* <VocalArtistsIndividual /> */}
       <Orchestra />
       <Sithpawura />
       <PartnersSection />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

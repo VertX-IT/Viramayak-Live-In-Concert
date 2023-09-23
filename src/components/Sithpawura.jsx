@@ -5,10 +5,7 @@ import { sithpawuraImageList } from '../assets/images/sithpawura';
 
 const Sithpawura = () => {
   return (
-    <section
-      id="sithpawura"
-      className="flex flex-col items-center p-12 bg-sithpawura-pattern bg-no-repeat bg-top"
-    >
+    <section id="sithpawura" className="flex flex-col items-center p-12 bg-sithpawura-pattern bg-no-repeat bg-top">
       <Heading main="Sith Pawura" secondary="THE CHARITABLE PROGRAMME" />
       <p className="text-center mt-[-30px] max-w-5xl">
         The Sith Paura project is a yearly initiative undertaken by engineering students from University of Sri
@@ -27,34 +24,13 @@ const Sithpawura = () => {
         the power of education to transform lives and make a positive impact on society.
       </p>
       <img src={liyawalHero} className="max-w-[400px] my-8" />
-      <div className="flex flex-row flex-wrap items-center justify-center mx-auto">
-        {sithpawuraImageList.map((image, index) => {
-          return <img src={image} alt="sithpawura" className="w-[400px] p-2" key={index} />;
-        })}
+      <div className="max-w-[1500px]">
+        <div className="flex flex-row flex-wrap items-center justify-center mx-auto">
+          {sithpawuraImageList.map((image, index) => {
+            return <img src={image} alt="sithpawura" className="w-[450px] p-2" key={index} />;
+          })}
+        </div>
       </div>
-      {/* <h3 className="text-secondary">
-        Viramayak is a fund raising project for <br />
-        <strong>Sith Pawura</strong>
-        <br /> a charitable program done by the <br />
-        Faculty of Engineering <br />
-        University of Sri Jayewardenepura
-      </h3>
-      <h4 className="text-primary"> Sith Pawura projects</h4>
-      <div className="flex flex-col">
-        ------------ // ? develop see more section
-        <img className="w-fit pb-3" src={sithpawura0} alt="sithpawura" />
-        <div className="">
-          <img className="w-fit pb-3" src={sithpawura1} alt="sithpawura" />
-        </div>
-
-        -------------
-        <div className="">
-          <img className="w-fit pb-3" src={sithpawura0} alt="sithpawura" />
-          <img className="w-fit pb-3" src={sithpawura1} alt="sithpawura" />
-          <img className="w-fit pb-3" src={sithpawura2} alt="sithpawura" />
-          <img className="w-fit pb-3" src={sithpawura3} alt="sithpawura" />
-        </div>
-      </div> */}
     </section>
   );
 };
