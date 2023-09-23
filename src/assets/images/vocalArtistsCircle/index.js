@@ -1,0 +1,23 @@
+import Singer1 from './Singer1.png';
+import Singer2 from './Singer2.png';
+import Singer3 from './Singer3.png';
+import Singer4 from './Singer4.png';
+import Singer5 from './Singer5.png';
+import Singer6 from './Singer6.png';
+import Singer7 from './Singer7.png';
+import Singer8 from './Singer8.png';
+import Singer9 from './Singer9.png';
+import Singer10 from './Singer10.png';
+import Singer11 from './Singer11.png';
+import Singer12 from './Singer12.png';
+import Singer13 from './Singer13.png';
+import Singer14 from './Singer14.png';
+import Singer15 from './Singer15.png';
+import Singer16 from './Singer16.png';
+import Singer17 from './Singer17.png';
+import Singer18 from './Singer18.png';
+import Singer19 from './Singer19.png';
+import Singer20 from './Singer20.png';
+import Singer21 from './Singer21.png';
+
+export const vocalArtistsCircle = [Singer1, Singer2, Singer3,Singer4, Singer5,Singer6,Singer7,Singer8,Singer9,Singer10,Singer11,Singer12,Singer13,Singer14,Singer15,Singer16,Singer17,Singer18,Singer19,Singer20,Singer21];
