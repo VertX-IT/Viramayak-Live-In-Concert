@@ -23,6 +23,8 @@ import mihisara from "./mihisara.png";
 import nipun from "./nipun.png";
 import ukku from "./ukku.png";
 import charlie from "./charlie.png";
+import heroPattern from "./heroPattern.png"
+import liyawalHero from "./liyawalHero.png"
 
 export {
   viramayak_circular_logo,
@@ -50,4 +52,6 @@ export {
   nipun,
   ukku,
   charlie,
+  heroPattern,
+  liyawalHero
 };

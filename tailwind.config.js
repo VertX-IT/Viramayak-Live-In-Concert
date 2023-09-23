@@ -1,16 +1,20 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        primary: "#CBC086",
+        primary: "#DFB879",
         secondary: "#FFFFFF",
       },
       fontFamily: {
-        body: ["Lib Caslon Display", "serif"],
-        headings: ["Tangerine", "cursive"],
+        body: ["Montserrat", "sans-serif"],
+        headings: ["Cinzel Decorative", "cursive"],
       },
+      backgroundImage: {
+        'hero-pattern': 'url(./src/assets/images/heroPattern.png)',
+      }
     },
   },
   plugins: [],

@@ -9,6 +9,7 @@ import Partners from "./Partners";
 import Contact from "./Contact";
 import ContactUs from "./ContactUs";
 import CommingSoon from "./CommingSoon";
+import Ridma from "./Ridma";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Contact,
   ContactUs,
   CommingSoon,
+  Ridma,
 };
