@@ -3,10 +3,13 @@ import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <section id="home" className="flex flex-col items-center text-center max-w-full bg-hero-pattern bg-cover bg-center">
+    <section
+      id="home"
+      className="flex flex-col items-center text-center max-w-full bg-hero-pattern bg-cover bg-center h-screen"
+    >
       <Navbar />
 
-      <div className="flex lg:flex-row sm:flex-col items-center mx-0 my-auto h-screen">
+      <div className="flex lg:flex-row sm:flex-col items-center mx-0 my-auto">
         <img src={viramayak_circular_logo} alt="viramayak_circular_logo" className="max-w-[500px] mr-6" />
         <div className="flex flex-col ml-6">
           <p className="font-headings text-6xl font-semibold text-secondary">Viramayak</p>
