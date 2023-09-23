@@ -13,8 +13,8 @@ export default {
         headings: ['Cinzel Decorative', 'cursive'],
       },
       backgroundImage: {
-        'hero-pattern': 'url(./src/assets/images/heroPattern.png)',
-        'sithpawura-pattern': 'url(./src/assets/images/sithpawuraPattern.png)',
+        'hero-pattern': 'url(/heroPattern.png)',
+        'sithpawura-pattern': 'url(/sithpawuraPattern.png)',
       },
       dropShadow: {
         'upper-shadow': 'rgba(0, 0, 0, 0.56) 0px -15px 30px 0px',

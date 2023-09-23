@@ -30,3 +30,7 @@ body {
     background-position: 100% 50%;
   }
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
